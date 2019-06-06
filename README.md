@@ -43,26 +43,34 @@ and then tackle each step one by one.
    errors, and confirm in the console that the pets and owners have been created
    with the proper relations.
 
-2. On the pets index page, a pet's name should link to that pet's show page.
+2. Create index and show pages for pets and owners and allow for the additional
+   routes. Add the appropriate controller actions as you build the views based
+   discussed in the next steps.
 
-3. The pet show page should include the pet's name (eg. 'Harpo'), description
+3. The pets index page should list all pets, with each pet's name linking to
+   that pet's show page.
+
+4. The pet show page should include the pet's name (eg. 'Harpo'), description
    (eg. 'Long-haired dachshund, gray and white'), and the pet's owner. The
    owner's name should link to the owner show page.
 
-4. The owner show page should have the owner's name, address and all of their
-   pets.
+5. The owner show page should have the owner's name, address and all of their
+   pets. Each pet should link to that pet's show page.
 
-5. As a visitor to the website, I should be able to create a new pet with her
-   name and description.
+6. The owners index page should list all owners, each name linked to that
+   owner's show page.
 
-6. The form should also allow each pet to be created with
+7. Visitors to the website should be able to create new pets using a form to
+   input the pet's name and description
+
+8. The form for creating a new pet should also allow each pet to be created with
    **only one of the existing owners**.
 
-7. Make sure no two pets have the same name.
+**Note:** Make sure no two pets have the same name
 
 ## BONUS TO BE COMPLETED IF EVERYTHING ELSE IS DONE
 
-Add a filter to the index view of the pets. This will allow the visitor to
+Add a filter to the **index** view of the pets. This will allow the visitor to
 search for an existing owner and display all the pets with that owner on the
 same view page.
 
